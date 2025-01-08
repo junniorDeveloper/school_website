@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-89sPKCQnoOIjK6iyQvGMVovtJx7i4/UTjOM5/u4f8sDsXv9n7yOIZv5QmyNEzQvRykxXvR3sCeO5FtIyHBB8fQ==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <title>San Isidro Labrador</title>
+
+</head>
+
+<body>
+<!---------------------------- Gif de inicio de pagina web ---------------------------->
+<section id="inicio-gif">
+    <div class="loader">
+        <img  src="IMG/entrada.gif" alt="carga" >
+    </div>
+</section> 
+<!---------------------------- COMIENZA EL MENU DE NAVEGACION ---------------------------->
+<section id="encabezado">
+    
+    <nav class="nav ">
+
+        <div class="nav__container">
+
+   
+
+            <div class="nav__title"><img src="IMG/logo01.png" height="100%" width="100%"></div>
+
+            <a href="#menu" class="nav__menu">
+                <img src="IMG/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__menu nav__menu--second">
+                <img src="IMG/close.svg" class="nav__icon ">
+            </a>
+
+            <ul class="dropdown" id="menu">
+<!-- -------------------------------- COMUNIDAD EDUCATIVA------------------------------------------- -->
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        
+                        <span class="dropdown__span">COMUNIDAD EDUCATIVA</span>
+                        <img src="IMG/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#palabras_director" class="dropdown__anchor">Palabras del Director</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#Ideario-institucional" class="dropdown__anchor">Ideario Institucional</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#seccion-reseña-historica" class="dropdown__anchor">Reseña historica</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#seccion_mision" class="dropdown__anchor">Mision y Vision</a>
+                            </li>
+                            
+                            <li class="dropdown__li">
+                                <a href="#seccion_organigrama" class="dropdown__anchor">Organigrama</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+<!------------------------------------------ GALERIA-------------------- ------------------------------ -->
+                <li class="dropdown__list">
+                    <a href="#seccion_galeria" class="dropdown__link">
+                        
+                        <span class="dropdown__span">GALERIA INSTITUCIONAL</span>
+        
+                        
+                    </a>
+                </li>
+<!-- -------------------------------------DOCUMENTOS DE GESTION------ ----------------------------------------- -->
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        
+                        <span class="dropdown__span">DOCUMENTOS DE GESTION</span>
+                        <img src="IMG/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Project 1</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Project 2</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Project 3</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+<!-- ------------------------------------- PLANAS DE DOCENTES----------------------------------------------------- -->
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                       
+                        <span class="dropdown__span">PLANA DE DOCENTES</span>
+                        <img src="IMG/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#nivel-inicial" class="dropdown__anchor">Nivel Incial</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#nivel-primaria" class="dropdown__anchor">Nivel Primaria</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#nivel-secundaria" class="dropdown__anchor">Nivel Secundaria</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+<!-- --------------------------------CALENDARIOS DE ACTIVIDADES -------------------------------------------------- -->
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        
+                        <span class="dropdown__span">CALENDARIOS DE ACTIVIDADES</span>
+                        <img src="IMG/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#simulacros-sismo" class="dropdown__anchor">Simulacros de Sismos</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#dia-logro" class="dropdown__anchor">Día del Logro</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#Aniversario" class="dropdown__anchor">Aniversario de la I.E.P</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="slider">
+        <ul>
+            <li><img src="IMG/cero-1.png" alt=""></li>
+            <li><img src="IMG/uno-1.png" alt=""></li>
+            <li><img src="IMG/dos-1.png" alt=""></li>
+            <li><img src="IMG/tres-1.png" alt=""></li>
+        </ul>
+    </div>
+
+
+
+<!-- efecto scroll con javascript -->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var nuevo = document.querySelector("nav");
+            nuevo.classList.toggle("abajo",window.scrollY>0);
+        })
+    </script>
+
+    
+</section>
+    
+<!---------------------------- TERMINA EL MENU DE NAVEGACION ---------------------------->
+
+
+<!---------------------------- COMIENZA LAS PALABRAS DEL DIRECTOR ---------------------------->
+<section id="palabras_director">
+
+    <h1 class="title_palabras" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Palabras del Director</h1>
+    <div class="container_palabras" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="container_imagen_palabras">
+            <img class="img_palabras" src="IMG/new_director-1_AdobeExpress.gif" width="90%" height="90%">
+        </div>
+
+        <div class="container_texto_palabras">
+            <img class="imagen_fondo" src="IMG/02.1_Mi proyecto (4).png"  width="100%" height="100%"/>
+            <div class="texto_palabras">
+                NIÑOS, JOVENES, PADRES DE FAMILIA, PERSONAL DOCENTE Y ADMINISTRATIVO:
+                Damos la bienvenida en este nuevo año escolar a toda la COMUNIDAD 
+                EDUCATIVA en su conjunto  y al mismo tiempo, les damos acogida, a 
+                las familias que se incorporan este año 2021; esperando que el “descanso  
+                irregular” muy merecido y diferente al de otros años, nos permita abrigar 
+                la esperanza de cumplir con éxito las actividades programadas para el 
+                presente año, en el Proyecto Educativo Tomasino.Nuestro accionar como 
+                siempre, tiene que ver con el logro del desarrollo integral de los niños 
+                y jóvenes, preparándolos para afrontar sin mayores dificultades los 
+                desafíos, los retos y las ilusiones que nos plantea la sociedad de hoy 
+                en día, y para lograr este principal objetivo, creemos que la interacción 
+                entre la familia y el colegio es indispensable y fundamental.</div>
+        </div>
+    </div>
+</section>
+<!---------------------------- TERMINA LAS PALABRAS DEL DIRECTOR ---------------------------->
+
+
+<!---------------------------- COMIENZA EL IDEARIO INTITUCIONAL ---------------------------->
+<section id="Ideario-institucional" >
+    
+    <div  class="titulo-div">
+        <h2 class="linea"><span>IDEARIO INSTITUCIONAL</span></h2>
+    </div>
+
+    <main>
+
+        <div class="container__card">
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(IMG/PRIMARIA.jpg);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>¿Quiénes somos?</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1><u>¿Quiénes somos?</u></h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Pariatur ab quas recusandae voluptatum aliquid tempore animi 
+                                corporis voluptas. Tempore neque iure necessitatibus voluptas 
+                                nesciunt animi dolores incidunt delectus sapiente illum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(IMG/DIA\ DE\ LA\ MADRE\ SAN\ ISISDRO.jpg);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>¿Qué valoramos?</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1><u>¿Qué valoramos?</u></h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Pariatur ab quas recusandae voluptatum aliquid tempore animi 
+                                corporis voluptas. Tempore neque iure necessitatibus voluptas 
+                                nesciunt animi dolores incidunt delectus sapiente illum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(IMG/PRIMARIA.jpg);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h1>¿Qué propuestas nos permiten llevar a cabo nuestra misión?</h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1><u>¿Qué propuestas nos permiten llevar a cabo nuestra misión?</u></h1>
+                            <p>.Los programas institucionales que brindan experiencias 
+                                y desafíos concretos para el ejercicio creciente de la 
+                                autonomía, la participación. <br>
+                                .La evaluación sistemática en instancias internas y externas. <br>
+                                .La participación de diversos actores institucionales en distintos órganos representativos. <br></p>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+</section>
+<!-- -------------------------- TERMINA EL IDEARIO INSTITUCIONAL -------------------------- -->
+
+<!-- --------------------------------------seccion reseña------------------------------------- -->
+<section id="seccion-reseña-historica"> 
+
+    <div  class="titulo-div">
+        <h2 class="linea"><span>RESEÑA HISTORICA</span></h2>
+    </div>
+
+    <div class="container-reseña">
+        <img class="img-reseña" src="IMG/04_reseña.JPG" alt="">
+
+        <div class="parrafo-reseña">
+            <p>
+                Desde su creación en el año 2005 se ha convertido en una Institución 
+                líder en el norte del país gracias a su excelente calidad educativa y 
+                a la presencia de una plana docente joven, eficientemente capacitada 
+                para brindar a los alumnos una educación integral basada en la excelencia 
+                académica y la vivencia diaria de los valores humanos-cristianos que hacen 
+                falta en el mundo de hoy.En la actualidad contamos con los tres niveles de la 
+                educación básica regular (Inicial, Primaria y Secundaria). Los alumnos en 
+                nuestras aulas reciben una formación integral de calidad basada en la 
+                excelencia del conocimiento, la educación en y para la paz, la libertad, 
+                la democracia, la creatividad y la búsqueda de la verdad  
+                
+            </p>   
+        </div>
+    </div>
+
+</section>
+
+    <!-- ------------------------------------ mision --------------------------------------------- -->
+<section id="seccion_mision">
+    
+    <div  class="titulo-div">
+        <h2 class="linea"><span> MISION</span></h2>
+    </div>
+
+
+        <div class="container_mision">
+            <div class="plantilla_mision">
+                <div class="imagen_mision">
+                    <img src="IMG/05_mision.png" width="100%" height="100%">
+                </div>
+                <div class="texto_mision">
+                    <p>
+                        Contribuir a que los niños desarrollen competencia que les 
+                        garanticen desempeños satisfactorios en su vida, incidiendo 
+                        en la práctica de los valores éticos y morales, capaces de 
+                        adecuarse al cambio y a los retos del mundo globalizado, 
+                        aplicando proyectos de innovación en los diferentes aspectos, 
+                        para  elevar la calidad educativa, utilizando también  las 
+                        TICs. En el proceso enseñanza aprendizaje.Asumimos la responsabilidad
+                         de dar una formación integral a cada uno de nuestros alumnos en
+                          las distintas etapas de su desarrollo, desde el respeto a sus creencias, 
+                          poniendo el máximo empeño en el cultivo de valores humanos.
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- ------------------------------------- vision ------------------------------ -->
+<section id="seccion_vision">
+
+    <div  class="titulo-div">
+        <h2 class="linea"><span> VISION</span></h2>
+    </div>
+
+        <div class="container_vision">
+            <div class="plantilla_vision">
+                
+                <div class="texto_vision">
+                    <p>
+                        Nuestra visión es la de construir  una Institución Líder a 
+                        nivel provincial, impartiendo una formación holística con 
+                        la práctica de valores y mejorando la calidad educativa 
+                        acorde al avance científico tecnológico, a través de la 
+                        utilización de las TICs. La visión de un colegio es la ruta 
+                        a seguir para lograr los objetivos. Las cosas que se quieren 
+                        conseguir. Este apartado contesta a las preguntas “¿qué queremos 
+                        para el futuro?” y “¿cómo lo conseguiremos?”Toda institución humana 
+                        requiere educar la mirada sobre sí misma, de modo que se propicie 
+                        en ella la construcción de un sentido para la acción y una cierta 
+                        conciencia de su pasado y de su futuro.
+                         
+                    </p>
+                </div>
+                
+                <div class="imagen_vision">
+                    <img src="IMG/06_vision.png" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+</section>
+<!-- ------------------------------ organigrama institucional ------------------------------------- -->
+<section id="seccion_organigrama">
+ 
+    <div  class="titulo-div">
+        <h2 class="linea"><span>ORGANIOGRAMA INSTITUCIONAL</span></h2>
+    </div>
+
+    <div class="container_img_organigrama">
+        <img src="IMG/07_organigrama.png" width="100%" height="100%">
+    </div>
+</section>
+
+
+
+<!-- ------------------------------------------- galeria institucional ----------------------------------------- -->
+<section id="seccion_galeria">
+
+    <div  class="titulo-div">
+        <h2 class="linea"><span>GALERIA INSTITUCIONAL</span></h2>
+    </div>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><a href="IMG/galeria01.jpg" class="popup-img"><img src="IMG/galeria01.jpg" ></a></div>
+        <div class="item"><a href="IMG/galeria02.jpg" class="popup-img"><img src="IMG/galeria02.jpg" ></a></div>
+        <div class="item"><a href="IMG/galeria03.jpg" class="popup-img"><img src="IMG/galeria03.jpg" ></a></div>
+        <div class="item"><a href="IMG/galeria04.jpg" class="popup-img"><img src="IMG/galeria04.jpg" ></a></div>
+        <div class="item"><a href="IMG/galeria05.jpg" class="popup-img"><img src="IMG/galeria05.jpg" ></a></div>
+        <div class="item"><a href="IMG/galeria06.jpg" class="popup-img"><img src="IMG/galeria06.jpg" ></a></div>
+        <div class="item"><a href="IMG/galeria07.jpg" class="popup-img"><img src="IMG/galeria07.jpg" ></a></div>
+        <div class="item"><a href="IMG/galeria08.jpg" class="popup-img"><img src="IMG/galeria08.jpg" ></a></div>
+    </div>
+      
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-ISehZ5u9XAKaq8PSo1aF5k9CVl9JS5YO4Zt8IIoo789QP17ShoNpp7i/odrxnPtJpljZjmmpBwEpxPQLBfXh5w==" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  navText: ["<span class='custom-nav-text'>anterior</span>","<span class='custom-nav-text'>siguiente</span>"],
+  responsive:{
+    0:{
+      items:1
+    },
+    600:{
+      items:2
+    },
+    768:{
+      items:3
+    },
+    992:{
+      items:4
+    }
+  }
+})
+});
+$('.popup-img').magnificPopup({
+type: 'image',
+gallery: {
+enabled: true
+}
+});
+</script> 
+
+</section>
+<!-- ---------------------------------- documentos de gestion------------------------------------ -->
+<section id="seccion_docgestion">
+
+    <div  class="titulo-div">
+        <h2 class="linea"><span>DOCUMENTOS DE GESTION</span></h2>
+    </div>
+
+    <div class="container_gestion">
+        <div class="boton_docgestion"><img src="IMG/horario5.png" width="60%" height="60%"><a href="/1°VersionLandingPage/pdf/pei.pdf" >P.E.I</a></div>
+        <div class="boton_docgestion"><img src="IMG/horario5.png" width="60%" height="60%" ><a href="/1°VersionLandingPage/pdf/pat.pdf">P.A.T</a></div>
+        <div class="boton_docgestion"><img src="IMG/horario5.png" width="60%" height="60%" ><a href="/1°VersionLandingPage/pdf/ri.pdf">R.I</a></div>
+        <div class="boton_docgestion"><img src="IMG/horario5.png" width="60%" height="60%" ><a href="/1°VersionLandingPage/pdf/fut.pdf">F.U.T</a></div>       
+    </div>
+</section>
+
+<!---------------------------- COMIENZA PLANA DE DOCENTES ---------------------------->
+
+<section id="plana-docentes">
+</section>
+
+ <!-- inicial -->
+ <section id="nivel-inicial">
+	<div class="contenedor">
+		<main class="contenido-principal">
+			<img src="IMG/nuevo_inicia.jpg" alt="Dome of the German Bundestag" class="contenido-principal__imagen">
+			<div class="contenido-principal__contenedor">
+				<h1 class="contenido-principal__titulo">Nivel Inicial</h1>
+				<p class="contenido-principal__resumen">
+                    Brindamos el servicio a niños de 3 a 5 años desarrollando aprendizajes 
+                    significativos tanto en lo cognitivo, afectivo, psicomotor y socioemocional,
+                     a través de la práctica de valores los cuales 
+                     les han permitido desarrollar aún más su personalidad.
+                     En cuanto al inglés los niños y niñas vivencian el idioma de manera lúdica, 
+                     natural y espontánea. Participan activamente desarrollando habilidades 
+                     para lograr un mejor estimulo que evidencien principalmente 
+                     la comprensión de los mensajes dados acorde con la edad.			
+                </p>
+				<p class="contenido-principal__resumen">
+                    En el taller de computación se  propicia el desarrollo de habilidades 
+                    intelectuales y a la vez les permite a nuestros niños desarrollar habilidades 
+                    informáticas y de motricidad fina.				
+                </p>
+			</div>
+		</main>
+
+		<div class="carousel">
+			<div class="carousel__contenedor">
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel__lista">
+					<div class="carousel__elemento">
+						<img src="IMG/01inicial.jpg" alt="Rock and Roll Hall of Fame">
+						<p>Vilma Peralta Huamán</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="IMG/02inicial.jpg" alt="Constitution Square - Tower I">
+						<p>Jeny Alfaro Grández</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="IMG/03inicial.jpg" alt="Empire State Building">
+						<p>Yesenia Conza Ancco</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="IMG/04inicial.jpg" alt="Harmony Tower">
+						<p>Yeny Valle Castillo</p>
+					</div>
+	
+					<div class="carousel__elemento">
+						<img src="IMG/02inicial.jpg" alt="Empire State Building">
+						<p>Linda Carrasco Mendoza</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="IMG/01inicial.jpg" alt="Harmony Tower">
+						<p>Juliana Gonzales Cartajena</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="IMG/03inicial.jpg" alt="Empire State Building">
+						<p>Yessy Alarcon Meneses</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="IMG/04inicial.jpg" alt="Harmony Tower">
+						<p>Carla Mendoza Sandobal</p>
+					</div>
+				</div>
+
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</section>
+
+ <!-- primaria -->
+ <section id="nivel-primaria">
+	<div class="contenedor1">
+		<main class="contenido1-principal1">
+			<img src="IMG/nuevo_primaria.jpg" alt="Dome of the German Bundestag" class="contenido1-principal1__imagen1">
+			<div class="contenido1-principal1__contenedor1">
+				<h1 class="contenido1-principal1__titulo1">Nivel Primaria</h1>
+				<p class="contenido1-principal1__resumen1">
+                    En este nivel aplicamos una metodología propia de la institución 
+                    según intereses, necesidades y capacidades del estudiante, implementando 
+                    laboratorios, salas de idiomas y otros, con la finalidad de lograr un 
+                    desarrollo integral de nuestros educandos. 
+                    Se dan Círculos de estudio: Nivelación y reforzamiento en Matemática, 
+                    Comunicación e Inglés y de los cursos según las necesidades de los estudiantes.		
+                </p>
+				<p class="contenido1-principal1__resumen1">
+                    Visitas de estudio que tienen como principal objetivo la integración de 
+                    nuestros estudiantes quienes con orden y entusiasmo disfrutan de interesantes
+                    exposiciones e innumerables experiencias compartidas con sus compañeros.				
+                </p>
+			</div>
+		</main>
+
+		<div class="carousel1">
+			<div class="carousel1__contenedor1">
+				<button aria-label="Anterior1" class="carousel1__anterior1">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel1__lista1">
+					<div class="carousel1__elemento1">
+						<img src="IMG/01primaria.jpg" alt="Rock and Roll Hall of Fame">
+						<p>Vilma Peralta Huamán</p>
+					</div>
+					<div class="carousel1__elemento1">
+						<img src="IMG/02primaria.jpg" alt="Constitution Square - Tower I">
+						<p>Jeny Alfaro Grández</p>
+					</div>
+					<div class="carousel1__elemento1">
+						<img src="IMG/03primaria.jpg" alt="Empire State Building">
+						<p>Yesenia Conza Ancco</p>
+					</div>
+					<div class="carousel1__elemento1">
+						<img src="IMG/04primaria.jpg" alt="Harmony Tower">
+						<p>Yeny Valle Castillo</p>
+					</div>
+	
+					<div class="carousel1__elemento1">
+						<img src="IMG/02primaria.jpg" alt="Empire State Building">
+						<p>Linda Carrasco Mendoza</p>
+					</div>
+					<div class="carousel1__elemento1">
+						<img src="IMG/01primaria.jpg" alt="Harmony Tower">
+						<p>Juliana Gonzales Cartajena</p>
+					</div>
+					<div class="carousel1__elemento1">
+						<img src="IMG/03primaria.jpg" alt="Empire State Building">
+						<p>Yessy Alarcon Meneses</p>
+					</div>
+					<div class="carousel1__elemento1">
+						<img src="IMG/04primaria.jpg" alt="Harmony Tower">
+						<p>Carla Mendoza Sandobal</p>
+					</div>
+				</div>
+
+				<button aria-label="Siguiente1" class="carousel1__siguiente1">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist1" class="carousel1__indicadores1"></div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</section>
+  <!-- secundaria -->
+  <section id="nivel-secundaria">
+	<div class="contenedor2">
+		<main class="contenido2-principal2">
+			<img src="IMG/nuevo_secundaria.jpg" alt="Dome of the German Bundestag" class="contenido1-principal1__imagen1">
+			<div class="contenido2-principal2__contenedor2">
+				<h1 class="contenido2-principal2__titulo2">Nivel Secundaria</h1>
+				<p class="contenido2-principal2__resumen2">
+                    En el nivel secundaria se cuenta con un plan académico exigente, 
+                    círculos de estudio de reforzamiento académico motivando la 
+                    participación de nuestros estudiantes en distintos eventos competitivos.
+                    Se hace entrega de los informes académicos y conductuales a los 
+                    padres de familia de manera individual, fortaleciendo una comunicación 
+                    más directa y precisa sobre el desempeño de cada uno de nuestros estudiantes.
+                </p>
+				<p class="contenido2-principal2__resumen2">
+                    Visitas de estudio que tienen como principal objetivo la integración de 
+                    nuestros estudiantes quienes con orden y entusiasmo disfrutan de interesantes
+                    exposiciones e innumerables experiencias compartidas con sus compañeros.				
+                </p>
+			</div>
+		</main>
+
+		<div class="carousel2">
+			<div class="carousel2__contenedor2">
+				<button aria-label="Anterior2" class="carousel2__anterior2">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel2__lista2">
+					<div class="carousel2__elemento2">
+						<img src="IMG/01secundaria.jpg" alt="Rock and Roll Hall of Fame">
+						<p>Ivan Peralta Huamán</p>
+					</div>
+					<div class="carousel2__elemento2">
+						<img src="IMG/02secundaria.jpg" alt="Constitution Square - Tower I">
+						<p>Jeny Alfaro Grández</p>
+					</div>
+					<div class="carousel2__elemento2">
+						<img src="IMG/03secundaria.jpg" alt="Empire State Building">
+						<p>Alfredo Conza Ancco</p>
+					</div>
+					<div class="carousel2__elemento2">
+						<img src="IMG/04secundaria.jpg" alt="Harmony Tower">
+						<p>Yeny Valle Castillo</p>
+					</div>
+	
+					<div class="carousel2__elemento2">
+						<img src="IMG/02secundaria.jpg" alt="Empire State Building">
+						<p>Linda Carrasco Mendoza</p>
+					</div>
+					<div class="carousel2__elemento2">
+						<img src="IMG/01secundaria.jpg" alt="Harmony Tower">
+						<p>Julian Gonzales Cartajena</p>
+					</div>
+					<div class="carousel2__elemento2">
+						<img src="IMG/03secundaria.jpg" alt="Empire State Building">
+						<p>Eduardo Alarcon Meneses</p>
+					</div>
+					<div class="carousel2__elemento2">
+						<img src="IMG/04secundaria.jpg" alt="Harmony Tower">
+						<p>Carla Mendoza Sandobal</p>
+					</div>
+				</div>
+
+				<button aria-label="Siguiente2" class="carousel2__siguiente2">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist2" class="carousel2__indicadores2"></div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</section>
+<!---------------------------- TERMINA PLANA DE DOCENTES ---------------------------->
+
+<!---------------------------------- horarios ------------------------------------ -->
+<section id="seccion_horario">
+
+    <div  class="titulo-div">
+        <h2 class="linea"><span>HORARIOS DE LA INSTITUCION</span></h2>
+    </div>
+
+    <div class="container_horario">
+        <!-- inicial -->
+      <div class="tarjet_horario">
+
+            <div class="titulo_tarjeta"><img src="IMG/horario04.png" width="30px" height="30px">
+                <h1><a href="pdf/inicial.pdf">Inicial</a></h1>
+            </div>
+
+            <div class="img_tarjeta"><img src="IMG/horario01.png" width="100%" height="100%"></div>
+      </div>  
+
+      <!-- primaria -->
+      <div class="tarjet_horario">
+
+            <div class="titulo_tarjeta"><img src="IMG/horario04.png" width="30px" height="30px">
+                <h1><a href="pdf/Primaria.pdf">Primaria</a></h1> 
+            </div>
+
+            <div class="img_tarjeta"><img src="IMG/horario02.png" width="100%" height="100%"></div>
+      </div> 
+
+      <!-- secundaria -->
+      <div class="tarjet_horario">
+        
+            <div class="titulo_tarjeta"><img src="IMG/horario04.png" width="30px" height="30px">
+                <h1> <a href="pdf/secundaria.pdf">Secundaria</a></h1>
+            </div>
+
+            <div class="img_tarjeta"><img src="IMG/horario03.png" width="100%" height="100%"></div>
+     </div> 
+
+    </div>
+</section>
+<!---------------------------- COMIENZA SIMULACRO DE SISMOS ---------------------------->
+
+<section id="simulacros-sismo">
+    
+    <div  class="titulo-div">
+        <h2 class="linea"><span>SIMULACROS DE SISMO</span></h2>
+    </div>
+
+    <div class="contenedor-sismos">
+        
+             <figure>
+                 <img src="IMG/simulacro.jpg" width="100%" height="100%">
+                 <div class="capa">
+                     <h3> Simulacros de sismo</h3>
+                     <p>Es un ejercicio de laboratorio o juego de roles que recrea una
+                        situación hipotética de desastre frente a la cual los participantes
+                        deberán tomar decisiones basadas en la información que reciben
+                        durante el ejercicio. A cada participante se le asigna un personaje
+                        que debe coincidir con su ocupación real.
+                        Es un ejercicio de entrenamiento del manejo de información que
+                        permite desarrollar competencias en las autoridades de la I.E. para la
+                        toma de decisiones oportunas y pertinentes en el momento mismo
+                        de la emergencia a fin de salvaguardar las vidas de los integrantes
+                        de la comunidad educativa y asegurar la restitución del servicio
+                        educativo en el menor tiempo posible.La simulación presenta a los participantes diversas situaciones que
+                        los obliga a seleccionar y proponer entre varias posibilidades, las
+                        que se consideren más adecuadas a las distintas cuestiones que se
+                        plantean y a una realidad propuesta.
+                    </p>
+                 </div>
+             </figure>
+         
+     </div>
+</section>
+
+<!---------------------------- TERMINA SIMULACRO DE SISMOS ---------------------------->
+
+<!---------------------------- COMIENZA DIA DEL LOGRO ---------------------------->
+
+<section id="dia-logro">
+    
+    <div  class="titulo-div">
+        <h2 class="linea"><span>DIA DEL LOGRO</span></h2>
+    </div>
+
+    <div class="contenedor-logro">
+        
+             <figure>
+                 <img src="IMG/simulacro.jpg" width="100%" height="100%">
+                 <div class="capa">
+                     <h3> Dia del Logro </h3>
+                     <p>Permite informar a los padres de familia y a la comunidad educativa
+                        en general, sobre los aprendizajes alcanzados por los estudiantes, y
+                        las acciones y estrategias adoptadas por el equipo directivo y docentes,
+                        los mismos permiten el logro de los aprendizajes. <br>
+                         Permite evidenciar el logro de los aprendizajes y el desempeño
+                        pedagógico orientado al cambio de una escuela atractiva, motivadora y
+                        participativa. 
+                        el día de logro nos permite informar a los padres de familia ya la 
+                        comunidad en general sobre los aprendizajes alcanzados por los 
+                        estudiantes demostrando así que nadie se queda atrás en esta actividad 
+                        nuestros estudiantes reciben de manera organizada las actividades que 
+                        han desarrollado y los resultados obtenidos
+                    </p>
+                 </div>
+             </figure>
+         
+     </div>
+</section>
+<!---------------------------- TERMINA DIA DEL LOGRO ---------------------------->
+
+<!---------------------------- COMIENZA ANIVERSARIO DE LA IEP ---------------------------->
+
+<section id="Aniversario">
+    
+    <div  class="titulo-div">
+        <h2 class="linea"><span> ANIVERSARIO DE LA IEP</span></h2>
+    </div>
+
+    <div class="contenedor-aniversario">
+        
+             <figure>
+                 <img src="IMG/simulacro.jpg" width="100%" height="100%">
+                 <div class="capa">
+                     <h3> Aniversario de la I.E.P </h3>
+                     <p>Nos enorgullece pertenecer a esta comunidad educativa y saber que hemos mantenido nuestra
+                        trayectoria de colegio de excelencia, confirmada con la obtención por 20 años consecutivos de
+                        la Excelencia Académica hasta el año 2017. En agosto recién pasado también recibimos la
+                        importante noticia de que nuestro colegio obtuvo la Categoría de Desempeño Alto en
+                        Enseñanza Media, privilegio que pocos establecimientos tienen, lo que viene a complementar la
+                        Categoría de Desempeño Alto en Enseñanza Básica obtenida el año 2016. Ello representa una
+                        alegría y un estímulo para toda nuestra comunidad educativa que nos convoca a permanecer en
+                        esta ruta de trabajo comprometido por la excelencia en todas sus dimensiones. Son logros que
+                        nos identifican y los asociamos con la realidad actual de nuestras aulas, que son muy
+                        heterogéneas.
+                        
+                    </p>
+                 </div>
+             </figure>
+         
+     </div>
+</section>
+<!---------------------------- TERMINA ANIVERSARIO DE LA IEP ---------------------------->
+
+
+<!---------------------------- COMIENZA EL FORMULARIO  --------------------------->
+
+    <section id="formulario-insti">
+  
+        <h1 class="titu-formulario">FORMULARIO</h1>
+
+        <div class="cotainer-formulario">
+
+            <div class="imagen-formulario">
+                <img src="IMG/formulario02.png" width="100%" height="100%">
+            </div>
+
+            <div class="formulario">
+                <form>
+                    <h1 class="titulo-formulario">Envianos tu mensaje</h1>
+            
+                    <label for="nombre" class="tex-formulario">Nombre:</label>
+                    <input type="text" id="Nombres" name="nombre" >
+            
+                    <label for="nombre" class="tex-formulario">Apellido:</label>
+                    <input type="text" id="Apellidos" name="nombre" >
+
+                    <label for="nombre" class="tex-formulario">telefono:</label>
+                    <input type="text" id="Telefono" name="telefono" >
+                    
+                    <label for="email" class="tex-formulario">Correo electrónico:</label>
+                    <input type="email" id="Correo" name="email" >
+                    
+                    <label for="mensaje" class="tex-formulario">Mensaje:</label>
+                    <textarea id="Mensaje" name="mensaje" ></textarea>
+                    
+                    <!-- <input type="submit" value="Enviar"> -->
+                    <button id="btnCrear" type="submit">enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+<!---------------------------- TERMINA EL FORMULARIO  --------------------------->
+<!---------------------------- comienza EL mapa  --------------------------->
+
+<section id="mapa-pie">
+    <div class="mapa">
+        <div id="map"></div>
+        <script src="script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    </div>
+</section>
+<!---------------------------- termina el mapa  --------------------------->
+
+<!-- --------------------------------audiencia--------------------------------------- -->
+<section id ="audiencia">
+
+    <div class="container_audiencia">
+
+        <h1 class="titulo">Redes Sociales</h1>
+    
+        <div class="iconos">
+          
+            <a href="https://www.youtube.com/watch?v=eLDauSAtoNw"><Div class="youtube"><i class="bi bi-youtube youtube-"></i><h3>Siguenos en :</h3></Div></a>
+            
+            <a href=""><Div class="whatsapp"><i class="bi bi-whatsapp whatsapp-"></i><h3>Preguntanos :</h3></Div></a>
+           
+           
+            <a href="https://www.facebook.com/people/Iep-N-21508-San-isidro-Ca%C3%B1ete/100057304275491/?locale=es_LA&paipv=0&eav=AfbiZmbHwVrW8yCk0ouJAgHBbjs3x5ql-O25SmeJBZvV10jlHoP1bNH2dvGXqqgspsg&_rdr"> 
+            <Div class="mifacebook"><i class="bi bi-facebook facebook-"></i><h3>Conocenos en :</h3></Div></a>
+           
+           
+            <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A77039485&keywords=san%20isidro%20labrador%20&origin=RICH_QUERY_SUGGESTION&position=0&searchId=94bc1fd2-e245-4da7-b311-c189a16383bd&sid=~VA">
+                 <Div class="linkedin"><i class="bi bi-linkedin linkedin-"></i><h3>Estamos tambien :</h3></Div></a>
+
+        </div>
+
+    </div>
+
+</section>   
+<!------------------------pie de pagina------------------------------->
+<section id="pie-pagina">
+    <div class="container-pie">
+
+        
+        <div class="enlaces-directos">
+            <h1 class="title-pie">Ubicanos</h1>
+            <p class="parrafo-enlace">
+                DIRECCIÓN: Carretera CPM. San Isidro KM 8<br>
+                CENTRO POBLADO: San Isidro<br>
+                DISTRITO: Imperial<br>
+                PROVINCIA:  Cañete <br>
+                REGIÓN:  Lima <br>
+            </p>
+        </div>
+
+        <div class="contactenos-pie">
+            <h1 class="title-pie">Contactanos</h1>
+            <p class="parrafo-enlace">
+                TELEFONO: 931612731<br>
+                Sanisidrolabrador@gmail.com <br>
+                
+            </p>
+        </div>
+
+        <div class="siganos-pie">
+            <h1 class="title-siganos-pie">Nuestros Convenios</h1>
+            <div class="icono">
+                <div class="facebook"><a href="https://vallegrande.edu.pe/"><img src="IMG/logo.gif" width="100%" height="100%"></a></div>
+                <div class="facebook"><a href="https://www.gob.pe/muniimperial"><img src="IMG/logo00.png" width="100%" height="100%"></a></div>
+                <div class="facebook"><a href="https://www.gob.pe/minedu"><img src="IMG/logo000.png" width="100%" height="100%"></a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html >
